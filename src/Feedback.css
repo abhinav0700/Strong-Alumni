@@ -1,0 +1,52 @@
+/* Main container styling */
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-color: #1b1b1b; /* Dark background */
+  }
+  
+  /* Feedback box styling */
+  .feedback-box {
+    background-color: #2a2a2a; /* Slightly lighter dark shade for contrast */
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Title styling */
+  .feedback-title {
+    font-size: 24px;
+    color: #d4af37; /* Gold color for title */
+    margin-bottom: 20px;
+  }
+  
+  /* Feedback options styling */
+  .feedback-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Feedback button styling */
+  .feedback-button {
+    background-color: #d4af37; /* Gold button */
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: #1b1b1b; /* Dark text color for contrast */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .feedback-button:hover {
+    background-color: #b8962b; /* Darker gold on hover */
+  }
+  

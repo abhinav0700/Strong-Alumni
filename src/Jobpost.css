@@ -1,0 +1,78 @@
+/* Container occupies the full website */
+.jobpost-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-color: #1b1b1b;
+    margin: 0; /* Remove any default margin */
+    position: absolute; /* Ensure it covers the entire page */
+    top: 0;
+    left: 0;
+  }
+  
+  /* The form box centered within the full screen container */
+  .jobpost-box {
+    background-color: #2a2a2a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 400px; /* Fixed width for the box */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .jobpost-title {
+    font-size: 24px;
+    color: #d4af37;
+    margin-bottom: 20px;
+  }
+  
+  .jobpost-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #1b1b1b;
+    color: white;
+  }
+  
+  textarea.jobpost-input {
+    height: 100px;
+    resize: none;
+  }
+  
+  .jobpost-button {
+    background-color: #d4af37;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    color: #1b1b1b;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .jobpost-button:hover {
+    background-color: #b8962b;
+  }
+  
+  .jobpost-success {
+    font-size: 18px;
+    color: #b0f57f;
+    margin-bottom: 10px;
+  }
+  
+  .tick-mark {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #b0f57f;
+  }
+  

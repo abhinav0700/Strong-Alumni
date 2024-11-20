@@ -1,0 +1,82 @@
+/* Main container styling */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-color: #1b1b1b; /* Dark background */
+  margin: 0; /* Remove default margin */
+  position: absolute; /* Ensure it covers the entire page */
+  top: 0;
+  left: 0;
+}
+
+/* Sign-up box styling */
+.signup-box {
+  background-color: #2a2a2a; /* Slightly lighter dark shade for contrast */
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  text-align: center;
+  color: white; /* White text color */
+}
+
+/* Title styling */
+.signup-title {
+  font-size: 24px;
+  color: #d4af37; /* Gold color for title */
+  margin-bottom: 20px;
+}
+
+/* Input field styling */
+.signup-input {
+  background-color: #1b1b1b; /* Dark input field */
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  color: white;
+}
+
+/* Sign-up button styling */
+.signup-button {
+  background-color: #d4af37; /* Gold button */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  color: #1b1b1b; /* Dark text color for contrast */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #b8962b; /* Darker gold on hover */
+}
+
+/* Footer styling */
+.signup-footer {
+  margin-top: 20px;
+}
+
+.login-text {
+  color: white;
+}
+
+.login-link {
+  color: #d4af37; /* Gold color for login link */
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: #ff6b6b; /* Red color for error messages */
+  margin-bottom: 10px;
+}
